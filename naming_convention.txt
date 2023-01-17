@@ -1,0 +1,11 @@
+## S3 Naming Convention
+s3://{company}-raw-{awsRegion}-{awsAccountId}-{env}/
+{source}/
+{source_region}/
+{tablename}/
+{year=yyyy}/{month=mm}/{day=dd}/
+table_<yearmonthday>.<file_format>
+
+env = dev, test, prod
+source = name or indicator of source
+source_region = region of data source

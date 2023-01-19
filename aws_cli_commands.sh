@@ -1,6 +1,6 @@
-#!/bin/bash
+!/bin/bash
 #Replace It With Your Bucket Name
-export bucket="e2e-youtube-data-analysis-raw-ap-southeast-1-dev"
+export bucket={INSERT YOUR BUCKET HERE}
 # To copy all JSON Reference data to same location:
 aws s3 cp . s3://$bucket/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
 

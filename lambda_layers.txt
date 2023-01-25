@@ -1,0 +1,4 @@
+Go to Lambda Layers-> Add Layer
+
+Choose Layer:
+AWS Layer-> AWSSDKPandas-Python{Version of Runtime} -> Add Layer

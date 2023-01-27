@@ -1,0 +1,11 @@
+Go to Lambda->Configuration->Environment variables
+Add the following key-value pairs:
+
+#DB NAME
+glue_catalog_db_name:db_youtube_cleaned
+#TABLE NAME
+glue_catalog_table_name
+#S3 DUMP BUCKET FOR CLEANED database
+{CREATE/ADD YOUR S3 BUCKET HERE}
+#write_data_operation
+append
